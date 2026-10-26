@@ -25,12 +25,6 @@ cd desktop-integration/
 sudo dpkg -i *.deb
 sudo apt install gimp -y
 sudo dpkg --add-architecture i386
-wget https://code-industry.net/public/master-pdf-editor-5.9.94-qt5.x86_64.deb
-sudo apt install ./master-pdf-editor-5.9.94-qt5.x86_64.deb
-sudo apt install wine64 wine32 winetricks -y
-WINEARCH=win64 WINEPREFIX=~/.adobe_wine winecfg
-WINEARCH=win64 WINEPREFIX=~/.adobe_wine winetricks mspatcha atmlib allfonts
-sudo apt install steam -y
-sudo apt update -y
-sudo apt upgrade -y
+wget https://code-industry.net/get-master-pdf-editor-for-ubuntu/?download
+sudo apt install ./master-pdf-editor-5.9.99-qt6.x86_64.deb
 
