@@ -35,7 +35,7 @@ sudo snap install intellij-idea --channel=2026.1/stable --classic
 
 sudo snap install clion --classic 
 
-sudo snap install master-pdf-editor-5
+#sudo snap install master-pdf-editor-5
 
 #sudo apt remove --purge libreoffice* -y
 #sudo apt autoremove -y
